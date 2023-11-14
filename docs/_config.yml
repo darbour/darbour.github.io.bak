@@ -18,17 +18,37 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: David Arbour
-email: darbour26@gmail.com 
-description:   Welcome to my professional webpage. I'm David Arbour, a Senior Research Scientist at Adobe Research. My work revolves around causal inference, experimental design, off-policy evaluation, and network analysis.  I am particularly interested these days in understanding the role of these approaches in complex scenarios and settings involving interactions between humans and large scale machine learning models.
+#title: David Arbour
+#email: darbour26@gmail.com 
+#description:   Welcome to my professional webpage. I'm David Arbour, a Senior Research Scientist at Adobe Research. My work revolves around causal inference, experimental design, off-policy evaluation, and network analysis.  I am particularly interested these days in understanding the role of these approaches in complex scenarios and settings involving interactions between humans and large scale machine learning models.
 #>- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
   #twitter_username: jekyllrb
 github_username:  darbour
 
+# Basic Information 
+title: Senior Research Scientist
+affiliation: Adobe Research
+email: arbour (at) adobe.com
+
+# Search Engine Optimization (SEO)
+# The following information is used to improve the website traffic from search engines, e.g., Google.
+keywords: minimal light
+description: The Minimal Light is a simple and elegant jekyll theme for academic personal homepage.
+canonical: https://minimal-light-theme.yliu.me/
+
+# Links 
+# If you don't need one of them, you may delete the corresponding line.
+google_scholar: https://scholar.google.com/
+cv_link: assets/files/curriculum_vitae.pdf
+github_link: https://github.com/
+linkedin: https://www.linkedin.com/
+twitter: https://twitter.com/
+
+
 # Build settings
-remote_theme: academic-jekyll-theme
+remote_theme: yaoyao-liu/minimal-light
 plugins:
   - jekyll-feed
 
